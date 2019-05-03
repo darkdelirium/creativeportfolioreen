@@ -1,9 +1,9 @@
 {
-  "name": "site-layout-template-gulp-scss",
+  "name": "creativeportfolioreen",
   "version": "1.0.0",
   "description": "template for site layout",
   "main": "index.js",
-  "repository": "https://github.com/darkdelirium/site-layout-template-gulp-scss",
+  "repository": "https://github.com/darkdelirium/creativeportfolioreen",
   "author": "darkdelirium <alucard.ui@gmail.com>",
   "license": "GNU",
   "scripts": {
