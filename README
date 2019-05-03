@@ -1,0 +1,18 @@
+Free .pds design implementation in HTML+CSS(SCSS)+JS(vanilla)
+This is Free Template from free psd design.
+
+
+Optimizations:
+upto 1920px width, standart 1280px
+iPhone 6/7/8 (and landscape)
+iPhone 6/7/8 Plus (and lanscape)
+iPhone X (and lanscape)
+iPad (1024px and landscape)
+Samsung Galaxy 9/+
+
+How to compile SCSS:
+1. clone this repository
+2. add required libraries - yarn (or npm)
+3. run yarn start (or npm start)
+4. open url localhost:3000 (by default)
+5. compiled css in src/css directory after first run yarn start (or npm start)

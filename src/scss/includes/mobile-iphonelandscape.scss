@@ -1,0 +1,54 @@
+
+    .slideDescription {
+        font-size: 19px;
+    }
+    .menu {
+        display: none;
+    }
+
+    .collapsedmenu {
+        display: flex;
+        padding-left: 350px;
+    }
+
+    .togglemenu a {
+        width: 28%;
+    }
+
+    .secondpage .description {
+        justify-content: center;
+    }
+
+    .secondpage .description .ditem {
+        margin-left: 0px;
+        margin-bottom: 5px;
+    }
+
+    .latestworks .twoitembig .twoitemItem {
+        margin-right: 0px;
+        margin-bottom: 5px;
+    }
+    .latestworks .fouritemcarusel .fouritemcaruselItems .fouritemcaruselItemsItem {
+        margin-bottom: 5px;
+        margin-right: 0px;
+    }
+    .latestworks .fouritemcarusel .fouritemcaruselItems :nth-child(1n) {
+        margin-left: 0px;
+    }
+    .latestworks .fouritemcarusel .fouritemcaruselItems :nth-child(2n) {
+        margin-left: 5px;
+    }
+    .firstpage .maintitle .slogan {
+        font-size: 50px;
+    }
+    .footer, .secondpage, .secondpage .spSlogan, .latestworks {
+        height: auto;
+    }
+
+    .footer .footerInfo .footerInfoBlock, .footer .footerInfo .footerWhoWeAre {
+        margin-top: 40px;
+    }
+    .footer .footerInfo .footerWhoWeAre, .footer .footerInfo .footerInfoBlock {
+        margin-left: 0px;
+        margin-bottom: 5px;
+    }

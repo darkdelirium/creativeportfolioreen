@@ -1,0 +1,81 @@
+body {
+    overflow-x: hidden;
+    justify-content: center;
+}
+.firstpage, .secondpage, .latestworks, .workwithus {
+    justify-content: center;
+
+}
+
+h1 {
+    font-size: 25px;
+}
+.slideDescription {
+    font-size: 20px;
+}
+
+.menu {
+    display: none;
+}
+
+.collapsedmenu {
+    display: flex;
+    padding-left: 60px;
+}
+
+.footer, .secondpage, .secondpage .spSlogan, .latestworks {
+    height: auto;
+}
+
+.footer .footerInfo .footerInfoBlock {
+    margin: 0px;
+}
+.footer .footerInfo .footerWhoWeAre, .footer .footerInfo .footerInfoBlock {
+    margin-left: 0px;
+    margin-bottom: 5px;
+}
+.firstpage {height: 670px;}
+.firstpage .maintitle {
+    display: flex;
+    flex-direction: column;
+}
+.firstpage .maintitle .slogan {
+    font-size: 30px;
+}
+
+.firstpage .maintitle .slideDescription {
+    font-size: 17px;
+    line-height: 2.8;
+}
+
+.secondpage .description .ditem {
+    margin-left: 0px;
+    margin-bottom: 5px;
+}
+
+.latestworks .twoitemItem {
+    margin-left: 0px;
+}
+.latestworks .twoitembig  .twoitemItem {
+    width: calc(570px/1.6);
+    height: calc(502px/1.6);
+    margin-bottom: 10px;
+    margin-right: 0px;
+}
+.latestworks .twoitembig  .twoitemItem .twoitemItemDescription {
+    margin-top: 15px;
+}
+.latestworks .twoitembig  .twoitemItem .twoitemItemImage, .latestworks .twoitembig  .twoitemItem .twoitemItemImage img {
+    width: calc(570px/1.6);
+    height: calc(390px/1.6);
+}
+
+.latestworks .fouritemcarusel .fouritemcaruselItemsItem {
+    margin-bottom: 5px;
+    margin-right: 0px !important;
+}
+
+#totop {
+    bottom: 10px;
+    right: 10px;
+}

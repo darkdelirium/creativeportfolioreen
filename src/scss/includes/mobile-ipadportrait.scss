@@ -1,0 +1,42 @@
+body {
+    justify-content: center;
+}
+.firstpage, .secondpage, .latestworks, .workwithus {
+    justify-content: center;
+
+}
+@import "includes/mobile-togglemenu.scss";
+
+.secondpage .description .ditem {
+    margin-left: 10px;
+}
+
+.latestworks .twoitembig .twoitemItem {
+    margin-right: 0px;
+    margin-bottom: 10px;
+}
+.latestworks .fouritemcarusel .fouritemcaruselItems .fouritemcaruselItemsItem {
+    margin-bottom: 5px;
+}
+.latestworks .fouritemcarusel .fouritemcaruselItems  :nth-child(1n) {
+    margin-right: 5px;
+}
+.latestworks .fouritemcarusel .fouritemcaruselItems  :nth-child(2n) {
+    margin-right: 0px;
+}
+
+.firstpage .maintitle .slogan {
+    font-size: 60px;
+}
+
+.footer, .secondpage, .secondpage .spSlogan, .latestworks {
+    height: auto;
+}
+
+.footer .footerInfo .footerInfoBlock, .footer .footerInfo .footerWhoWeAre {
+    margin-top: 40px;
+}
+.footer .footerInfo .footerWhoWeAre, .footer .footerInfo .footerInfoBlock {
+    margin-left: 0px;
+    margin-bottom: 5px;
+}
